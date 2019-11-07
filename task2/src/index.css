@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Areal, sans-serif;
+  background: #ccc;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #000;
+}
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-bar {
+  margin: 0 0 0 auto;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.header ul li {
+  list-style: none;
+}
+.header ul li a {
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+.header ul li .disabled {
+  pointer-events: none;
+}
+main {
+  display: flex;
+}
+.sideBar {
+  width: 30%;
+  height: 100%;
+  margin: 0 10px 0 0;
+  padding: 15px 20px;
+  background: #fff;
+  border: 1px solid #000;
+}
+.sideBar h4 {
+  margin: 0 0 10px 0;
+}
+.sideBar ul {
+  padding: 0;
+}
+.sideBar ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+.sideBar ul li a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+.sideBar ul li a:hover {
+  text-decoration: underline;
+}
+.content {
+  width: 70%;
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #000;
+}
+.film-list-block {
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-wrap: wrap;
+  width: 100%;
+}
+.film-card {
+  max-width: 120px;
+  margin: 10px 10px;
+  padding: 0 0 10px 0;
+  text-decoration: none;
+  color: #000;
+  background: rgba(0, 0, 0, .2);
+  border: 1px solid #000;
+}
+.film-card-img {
+  width: 100%;
+}
+.film-card-title {
+  margin: 5px 0 5px 10px;
+}
+.film-card-date {
+  margin: 0 0 0 10px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #000;
+}
+.footer h2 {
+  margin: 10px;
+}
+.footer-link {
+  margin: 0 10px;
+  padding: 3px;
+ text-decoration: none;
+  color: #000;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
+
